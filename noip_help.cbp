@@ -35,6 +35,9 @@
 		<Unit filename="lib.cpp" />
 		<Unit filename="lib.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="noip_help.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />
