@@ -1,9 +1,10 @@
 #include <iostream>
-
+#include "lib.h"
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    //这是utf-8
+    print();
     return 0;
 }
