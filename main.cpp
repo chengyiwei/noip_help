@@ -10,12 +10,12 @@
 #include <windows.h>
 #include <cstdio>
 
-//#include "lib.h"
+#include "lib.h"
 
 int main()
 {
-  //  SetTitle((char *)"noip_help");
-    printf("你好");
+    SetTitle((char *)"noip_help");
+
     system("pause");
     return 0;
 }
