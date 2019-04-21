@@ -29,4 +29,6 @@ void PrintString(const char *,const int &);
 /* 把一个区间内的颜色刷成color */
 void SetColorXY(const int& ,const int& ,const int& ,const int& ,const int& );
 
+/* 获取键盘按键 */
+int GetKey();
 #endif // LIB_H_INCLUDED
