@@ -1,15 +1,14 @@
 # depslib dependency file v1.0
-1555781233 source:c:\users\14858\documents\github\noip_help\lib.cpp
+1555809591 source:c:\users\14858\documents\github\noip_help\lib.cpp
 	<windows.h>
 	<cstdio>
 
 1555781245 c:\users\14858\documents\github\noip_help\lib.h
 
-1555782154 source:c:\users\14858\documents\github\noip_help\main.cpp
+1555783303 source:c:\users\14858\documents\github\noip_help\main.cpp
 	<iostream>
 	<windows.h>
 	<cstdio>
-	"lib.h"
 
 1555779015 source:c:\users\14858\documents\github\noip_help\noip_help.rc
 
