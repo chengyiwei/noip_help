@@ -3,12 +3,13 @@
 	<windows.h>
 	<cstdio>
 
-1555781245 c:\users\14858\documents\github\noip_help\lib.h
+1555809643 c:\users\14858\documents\github\noip_help\lib.h
 
-1555783303 source:c:\users\14858\documents\github\noip_help\main.cpp
+1555926309 source:c:\users\14858\documents\github\noip_help\main.cpp
 	<iostream>
 	<windows.h>
 	<cstdio>
+	"lib.h"
 
 1555779015 source:c:\users\14858\documents\github\noip_help\noip_help.rc
 
