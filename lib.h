@@ -1,6 +1,10 @@
 #ifndef LIB_H_INCLUDED
 #define LIB_H_INCLUDED
 
+#include <windows.h>
+#include <cstdio>
+
+
 /* 设置控制台窗口标题 */
 void SetTitle(char *);
 
