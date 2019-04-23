@@ -1,5 +1,4 @@
-#include <windows.h>
-#include <cstdio>
+#include "lib.h"
 
 /* 设置控制台窗口标题 */
 void SetTitle(char * title){
