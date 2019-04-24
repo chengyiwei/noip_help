@@ -10,12 +10,13 @@
 #include <windows.h>
 #include <cstdio>
 
+
+#include "core.h"
 #include "lib.h"
 #include "initialization.h"
 
 int main()
 {
-    activation();
     SetTitle((char *)"noip_help");
 
     system("pause");
