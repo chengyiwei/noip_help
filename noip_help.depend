@@ -6,17 +6,26 @@
 	<windows.h>
 	<cstdio>
 
-1556020820 source:c:\users\14858\documents\github\noip_help\main.cpp
+1556103371 source:c:\users\14858\documents\github\noip_help\main.cpp
 	<iostream>
 	<windows.h>
 	<cstdio>
+	"core.h"
 	"lib.h"
+	"initialization.h"
 
 1555779015 source:c:\users\14858\documents\github\noip_help\noip_help.rc
 
-1556030969 source:c:\users\14858\documents\github\noip_help\initialization.cpp
+1556103613 source:c:\users\14858\documents\github\noip_help\initialization.cpp
 	"initialization.h"
 
-1556031137 c:\users\14858\documents\github\noip_help\initialization.h
+1556033039 c:\users\14858\documents\github\noip_help\initialization.h
+	<fstream>
+	<iostream>
 	"lib.h"
+
+1556103366 source:c:\users\14858\documents\github\noip_help\core.cpp
+	"core.h"
+
+1556103249 c:\users\14858\documents\github\noip_help\core.h
 
