@@ -2,11 +2,11 @@
 1556019600 source:c:\users\14858\documents\github\noip_help\lib.cpp
 	"lib.h"
 
-1556019594 c:\users\14858\documents\github\noip_help\lib.h
+1556124407 c:\users\14858\documents\github\noip_help\lib.h
 	<windows.h>
 	<cstdio>
 
-1556103371 source:c:\users\14858\documents\github\noip_help\main.cpp
+1556125066 source:c:\users\14858\documents\github\noip_help\main.cpp
 	<iostream>
 	<windows.h>
 	<cstdio>
@@ -16,16 +16,17 @@
 
 1555779015 source:c:\users\14858\documents\github\noip_help\noip_help.rc
 
-1556103613 source:c:\users\14858\documents\github\noip_help\initialization.cpp
+1556195826 source:c:\users\14858\documents\github\noip_help\initialization.cpp
 	"initialization.h"
 
-1556033039 c:\users\14858\documents\github\noip_help\initialization.h
+1556195803 c:\users\14858\documents\github\noip_help\initialization.h
 	<fstream>
 	<iostream>
 	"lib.h"
 
-1556103366 source:c:\users\14858\documents\github\noip_help\core.cpp
+1556195848 source:c:\users\14858\documents\github\noip_help\core.cpp
 	"core.h"
 
-1556103249 c:\users\14858\documents\github\noip_help\core.h
+1556195869 c:\users\14858\documents\github\noip_help\core.h
+	"initialization.h"
 
