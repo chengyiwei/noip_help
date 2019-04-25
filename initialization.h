@@ -10,7 +10,7 @@
 #include <fstream>
 #include <iostream>
 #include "lib.h"
-
 int activation();
+void windows_initialization();
 
 #endif // INITIALIZATION_H_INCLUDED
