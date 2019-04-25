@@ -6,6 +6,8 @@
 * 版  权: (c) 2019 xinghua middle school CYW。保留所有权利。
 ********************************************************/
 
+
+
 #include <iostream>
 #include <windows.h>
 #include <cstdio>
@@ -15,10 +17,11 @@
 #include "lib.h"
 #include "initialization.h"
 
+
+
 int main()
 {
-    SetTitle((char *)"noip_help");
-
+    run();
     system("pause");
     return 0;
 }
