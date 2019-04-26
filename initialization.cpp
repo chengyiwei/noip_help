@@ -43,6 +43,6 @@ int activation()
 }
 
 void windows_initialization(){
-    SetTitle("noip_help");
+    SetTitle(title);
 
 }
