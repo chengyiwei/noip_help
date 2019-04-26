@@ -16,10 +16,10 @@
 
 1555779015 source:c:\users\14858\documents\github\noip_help\noip_help.rc
 
-1556195826 source:c:\users\14858\documents\github\noip_help\initialization.cpp
+1556296763 source:c:\users\14858\documents\github\noip_help\initialization.cpp
 	"initialization.h"
 
-1556195803 c:\users\14858\documents\github\noip_help\initialization.h
+1556296745 c:\users\14858\documents\github\noip_help\initialization.h
 	<fstream>
 	<iostream>
 	"lib.h"
