@@ -10,6 +10,10 @@
 #include <fstream>
 #include <iostream>
 #include "lib.h"
+
+char * title="noip_help";
+
+
 int activation();
 void windows_initialization();
 
