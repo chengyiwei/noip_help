@@ -42,4 +42,5 @@ void SetColorXY(const int& ,const int& ,const int& ,const int& ,const int& );
 
 /* 获取键盘按键 */
 int GetKey();
+
 #endif // LIB_H_INCLUDED
