@@ -11,7 +11,6 @@
 #include <iostream>
 #include "lib.h"
 
-char * title="noip_help";
 
 
 int activation();
