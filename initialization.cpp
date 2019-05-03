@@ -43,6 +43,4 @@ int activation()
 }
 
 void windows_initialization(){
-    SetTitle(title);
-
 }
