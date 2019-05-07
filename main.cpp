@@ -21,6 +21,7 @@
 
 int main()
 {
+    run();
     system("pause");
     return 0;
 }
