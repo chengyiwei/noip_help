@@ -43,4 +43,7 @@ int activation()
 }
 
 void windows_initialization(){
+    SetTitle("noip_help       by:CYW");
+    SetConsoleWindowSize(120,40);
+    HideCursor(0);
 }
