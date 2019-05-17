@@ -15,5 +15,6 @@
 
 int activation();
 void windows_initialization();
-
+void get_user_data();
+void user_initialization();
 #endif // INITIALIZATION_H_INCLUDED
