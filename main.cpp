@@ -11,7 +11,7 @@
 #include <iostream>
 #include <windows.h>
 #include <cstdio>
-
+#include <conio.h>
 
 #include "core.h"
 #include "lib.h"
@@ -22,6 +22,8 @@
 int main()
 {
     run();
+    DeleteFile("user.tmp");
+    get_user_data();
     system("pause");
     return 0;
 }
