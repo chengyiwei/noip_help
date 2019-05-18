@@ -10,11 +10,24 @@
 #include <fstream>
 #include <iostream>
 #include "lib.h"
+#include "init.h"
 
+extern int selected_background_color;
+extern int selected_main_color;
+extern int background_color;
+extern int main_color;
+extern std::string name;
+
+extern const int window_high;
+extern const int window_width;
+extern const int show_high;
+extern const int show_windth;
+extern const int line;
 
 
 int activation();
 void windows_initialization();
 void get_user_data();
 void user_initialization();
+void __end();
 #endif // INITIALIZATION_H_INCLUDED
