@@ -99,6 +99,8 @@ void get_user_data(){
 
 void user_initialization(){
     SetColor(main_color,main_color);
+    Clrscr();
+    /*
     SetPosition(1,0);for(int i=1;i<show_windth;i++)putchar('-');
     SetPosition(1,line);for(int i=1;i<show_windth;i++)putchar('-');
     SetPosition(1,show_high);for(int i=1;i<show_windth;i++)putchar('-');
@@ -106,6 +108,7 @@ void user_initialization(){
     for(int i=1;i<show_high;i++){SetPosition(show_windth,i);putchar('|');}
     SetPosition(0,0);printf("+");SetPosition(0,line);printf("+");SetPosition(0,show_high);printf("+");
     SetPosition(show_windth,0);printf("+");SetPosition(show_windth,line);printf("+");SetPosition(show_windth,show_high);printf("+");
+    */
 }
 
 void __end(){
