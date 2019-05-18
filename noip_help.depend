@@ -1,12 +1,13 @@
 # depslib dependency file v1.0
-1558088496 source:c:\users\14858\documents\github\noip_help\lib.cpp
+1558177407 source:c:\users\14858\documents\github\noip_help\lib.cpp
 	"lib.h"
 
-1558088496 c:\users\14858\documents\github\noip_help\lib.h
+1558177418 c:\users\14858\documents\github\noip_help\lib.h
 	<windows.h>
 	<cstdio>
+	<ctime>
 
-1558095908 source:c:\users\14858\documents\github\noip_help\main.cpp
+1558176480 source:c:\users\14858\documents\github\noip_help\main.cpp
 	<iostream>
 	<windows.h>
 	<cstdio>
@@ -17,17 +18,21 @@
 
 1558088496 source:c:\users\14858\documents\github\noip_help\noip_help.rc
 
-1558089891 source:c:\users\14858\documents\github\noip_help\initialization.cpp
+1558176593 source:c:\users\14858\documents\github\noip_help\initialization.cpp
 	"initialization.h"
 
-1558095772 c:\users\14858\documents\github\noip_help\initialization.h
+1558176088 c:\users\14858\documents\github\noip_help\initialization.h
 	<fstream>
 	<iostream>
 	"lib.h"
+	"init.h"
 
-1558090768 source:c:\users\14858\documents\github\noip_help\core.cpp
+1558177860 source:c:\users\14858\documents\github\noip_help\core.cpp
 	"core.h"
 
-1558088496 c:\users\14858\documents\github\noip_help\core.h
+1558116273 c:\users\14858\documents\github\noip_help\core.h
 	"initialization.h"
+	"lib.h"
+
+1558163038 c:\users\14858\documents\github\noip_help\init.h
 
