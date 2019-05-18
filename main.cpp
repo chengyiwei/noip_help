@@ -18,12 +18,9 @@
 #include "initialization.h"
 
 
-
 int main()
 {
     run();
-    DeleteFile("user.tmp");
-    get_user_data();
-    system("pause");
+    __end();
     return 0;
 }
