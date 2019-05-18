@@ -9,7 +9,7 @@
 #define CORE_H_INCLUDED
 
 #include "initialization.h"
-
+#include "lib.h"
 void run();
-
+void main_menu();
 #endif // CORE_H_INCLUDED
