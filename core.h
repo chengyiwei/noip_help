@@ -12,4 +12,5 @@
 #include "lib.h"
 void run();
 void main_menu();
+int calculation_noip_time();
 #endif // CORE_H_INCLUDED
