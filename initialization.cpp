@@ -2,17 +2,20 @@
 
 const std::string correct_activation_code="AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==";
 const char tilte[]="noip_help    by:cyw";
+
+
+
+int selected_background_color=15;
+int selected_main_color=12;
+int background_color=0;
+int main_color=10;
+std::string name="C++";
+
 const int window_high=40;
-const int window_width=120;
+const int window_width=101;
 const int show_high=35;
 const int show_windth=100;
 const int line=7;
-
-int background_color=0;
-int main_color=10;
-int selected_background_color=15;
-int selected_main_color=12;
-std::string name="C++";
 
 int activation()
 {
@@ -95,7 +98,7 @@ void get_user_data(){
 }
 
 void user_initialization(){
-    SetColor(main_color,background_color);
+    SetColor(main_color,main_color);
     SetPosition(1,0);for(int i=1;i<show_windth;i++)putchar('-');
     SetPosition(1,line);for(int i=1;i<show_windth;i++)putchar('-');
     SetPosition(1,show_high);for(int i=1;i<show_windth;i++)putchar('-');
@@ -103,4 +106,11 @@ void user_initialization(){
     for(int i=1;i<show_high;i++){SetPosition(show_windth,i);putchar('|');}
     SetPosition(0,0);printf("+");SetPosition(0,line);printf("+");SetPosition(0,show_high);printf("+");
     SetPosition(show_windth,0);printf("+");SetPosition(show_windth,line);printf("+");SetPosition(show_windth,show_high);printf("+");
+}
+
+void __end(){
+    DeleteFile("user.tmp");
+    get_user_data();
+    SetPosition(0,show_high+1);
+    SetColor(background_color,background_color);
 }
