@@ -101,3 +101,8 @@ int GetKey()
     return 0;
 }
 
+tm* get_time(){
+    time_t now = time(0);
+    tm* ltm = localtime(&now);
+    return ltm;
+}
