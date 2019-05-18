@@ -34,6 +34,7 @@
 		</Compiler>
 		<Unit filename="core.cpp" />
 		<Unit filename="core.h" />
+		<Unit filename="init.h" />
 		<Unit filename="initialization.cpp" />
 		<Unit filename="initialization.h" />
 		<Unit filename="lib.cpp" />
