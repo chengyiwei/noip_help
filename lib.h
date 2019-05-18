@@ -10,7 +10,7 @@
 
 #include <windows.h>
 #include <cstdio>
-
+#include <ctime>
 
 /* 设置控制台窗口标题 */
 void SetTitle(char *);
@@ -42,5 +42,6 @@ void SetColorXY(const int& ,const int& ,const int& ,const int& ,const int& );
 
 /* 获取键盘按键 */
 int GetKey();
+tm * get_time();
 
 #endif // LIB_H_INCLUDED
