@@ -8,9 +8,11 @@
 #ifndef CORE_H_INCLUDED
 #define CORE_H_INCLUDED
 
+#include<conio.h>
+
 #include "initialization.h"
 #include "lib.h"
 void run();
 void main_menu();
-int calculation_noip_time();
+void calculation_noip_time();
 #endif // CORE_H_INCLUDED
