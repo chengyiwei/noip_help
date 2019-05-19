@@ -9,6 +9,7 @@ int selected_background_color=15;
 int selected_main_color=12;
 int background_color=0;
 int main_color=10;
+int back_color=0;
 std::string name="C++";
 
 const int window_high=40;
@@ -72,6 +73,7 @@ void get_user_data(){
         _file<<"main_color"<<" "<<main_color<<std::endl;
         _file<<"selected_background_color"<<" "<<selected_background_color<<std::endl;
         _file<<"selected_main_color"<<" "<<selected_main_color<<std::endl;
+        _file<<"back_color"<<" "<<back_color<<std::endl;
     }
     else {
         std::string ptr;
@@ -91,6 +93,9 @@ void get_user_data(){
             else if(ptr=="selected_main_color"){
                 _file>>selected_main_color;
             }
+            else if(ptr=="back_color"){
+                _file>>back_color;
+            }
         }
     }
     _file.close();
@@ -98,7 +103,7 @@ void get_user_data(){
 }
 
 void user_initialization(){
-    SetColor(main_color,main_color);
+    SetColor(back_color,back_color);
     Clrscr();
     /*
     SetPosition(1,0);for(int i=1;i<show_windth;i++)putchar('-');
