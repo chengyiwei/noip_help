@@ -16,6 +16,7 @@ extern int selected_background_color;
 extern int selected_main_color;
 extern int background_color;
 extern int main_color;
+extern int back_color;
 extern std::string name;
 
 extern const int window_high;
