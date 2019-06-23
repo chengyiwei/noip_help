@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1558864566 source:c:\users\14858\documents\github\noip_help\main.cpp
+	<iostream>
+	<thread>
+	<cstdio>
+	<windows.h>
+	<ctime>
+	<conio.h>
+
